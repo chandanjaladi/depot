@@ -54,7 +54,7 @@ class PayTypeSelector extends React.Component {
         </div>
         <PayTypeCustomComponent />
       </div>
-    );
+    )
   }
 }
 export default PayTypeSelector
