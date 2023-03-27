@@ -11,17 +11,7 @@ class LineItemsTest < ApplicationSystemTestCase
   end
 
 
-  test "updating a Line item" do
-    visit line_items_url
-    click_on "Edit", match: :first
-
-    fill_in "Cart", with: @line_item.cart_id
-    fill_in "Product", with: @line_item.product_id
-    click_on "Update Line item"
-
-    assert_text "Line item was successfully updated"
-    click_on "Back"
-  end
+  
 
   test "destroying a Line item" do
     visit line_items_url

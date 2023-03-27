@@ -85,14 +85,12 @@ GEM
     crass (1.0.6)
     erubi (1.10.0)
     ffi (1.15.5)
-    glob (0.2.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    i18n-js (4.0.1)
-      glob
-      i18n
+    i18n-js (3.9.2)
+      i18n (>= 0.6.6)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -220,7 +218,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
-  i18n-js
+  i18n-js (~> 3.9)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
