@@ -46,8 +46,8 @@ class OrdersTest < ApplicationSystemTestCase
 
     assert_selector "#order_routing_number"
 
-    fill_in "Routing #", with: "123456"
-    fill_in "Account #", with: "987654"
+    fill_in "Routing#", with: "123456"
+    fill_in "Account#", with: "987654"
 
     perform_enqueued_jobs do
       click_button "Place Order"

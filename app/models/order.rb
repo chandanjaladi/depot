@@ -1,4 +1,4 @@
-require 'pago'
+require_relative '../../lib/pago.rb'
 
 class Order < ApplicationRecord
   enum pay_type: {
